@@ -1,0 +1,37 @@
+.toggle-btn {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 3px;
+  border-radius: 25px;
+  background-color: gray;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.on.toggle-btn {
+  background-color: blue;
+}
+
+.off.toggle-btn {
+  background-color: gray;
+}
+
+.on .circle {
+  margin-left: 44px;
+}
+
+.off .circle {
+  margin-left: 0; 
+}
+
