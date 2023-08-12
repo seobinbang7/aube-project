@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './Practice.css';
 
 function ToggleBtn() {
   const [isOn, setIsOn] = useState(false); 
@@ -14,6 +13,7 @@ function ToggleBtn() {
         className={`toggle-btn ${isOn ? 'on' : 'off'}`}
       >
         <div className="circle" onClick={toggleEvent}></div>
+        <h1>Hello</h1>
       </div>
     </>
   );
